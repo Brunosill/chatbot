@@ -16,7 +16,8 @@ def duvida3 ():
 
 
 def duvidas():
-    while True:
+    iniciar = True
+    while iniciar:
         print ()
         print ('-' * 20)
         print ('Bem vindo ao nosso portal de duvidas! ')
@@ -37,4 +38,4 @@ def duvidas():
         elif duvidas_frequentes == '3':
             duvida3 ()
         elif duvidas_frequentes == '4':
-            menu_inicial ()
+            iniciar = False
