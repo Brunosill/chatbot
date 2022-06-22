@@ -1,5 +1,6 @@
 import menuDuvidas as duvidas
 import menuInformacoes as  informcoes 
+import menuConsultas as consultas
 import sair
 import os
  
@@ -23,6 +24,7 @@ def chatbot():
         elif(escolhaMenuPrincipal == '2'):
             clear()
             print("Você a opção de Cursos")
+            consultas.consultas()
         elif(escolhaMenuPrincipal == '3'):
             clear()
             print("Você escolher duvidadas")

@@ -1,19 +1,38 @@
 def consulta1 ():
-    print ('-' * 20)
-    print ('R: Nossos cursos disponíveis são: Data Analyst, Web Full Stack e Mobile Developer')
-    print ('-' * 20)
+    i = True
+    while i:
+        print ('-' * 20)
+        print ('R: Nossos cursos disponíveis são: Data Analyst, Web Full Stack e Mobile Developer')
+        print ('-' * 20)
+        volta = input("[s] Voltar ? ")
+        if volta == "s":
+            continuar = False
+
+    
     
 
 def consulta2 ():
-    print ('-' * 20)
-    print ('R: Nosso corpo de professores conta com os mais qualificados profissionais do mercado como: Esli Queiroz, Marisa Silva e Yasmin Guanaes')
-    print ('-' * 20)
+    i = True
+    while i:
+        print ('-' * 20)
+        print ('R: Nosso corpo de professores conta com os mais qualificados profissionais do mercado como: Esli Queiroz, Marisa Silva e Yasmin Guanaes')
+        print ('-' * 20)
+        volta = input("[s] Voltar ? ")
+        if volta == "s":
+            continuar = False
+
     
     
 def consulta3 ():
-    print ('-' * 20)
-    print ('R: As cargas horárias dos nossos cursos são: Data Analyst - 560 horas, Web Full Stack - 360 horas e Mobile Developer - 420 horas')
-    print ('-' * 20)
+    i = True
+    while i:
+        print ('-' * 20)
+        print ('R: As cargas horárias dos nossos cursos são: Data Analyst - 560 horas, Web Full Stack - 360 horas e Mobile Developer - 420 horas')
+        print ('-' * 20)
+        volta = input("[s] Voltar ? ")
+        if volta == "s":
+            continuar = False
+
     
 
 

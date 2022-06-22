@@ -3,7 +3,7 @@ import os
 clear = lambda: os.system ("cls"  if os.name == "nt" else "clear")
 
 def infomações_Horario ():
-    continuar = True;
+    continuar = True
     while continuar:
         print ( '-' * 20 )
         print (  'Nossos cursos são de segunda à quinta, das 19 ás 22 horas' )
@@ -13,7 +13,7 @@ def infomações_Horario ():
             continuar = False
 
 def infomações_contatos ():
-    continuar = True;
+    continuar = True
     while continuar:
         print ( '-' * 20 )
         print (  'Telefone: (000) 99999-9999' )
@@ -23,7 +23,7 @@ def infomações_contatos ():
             continuar = False
 
 def infomações_trabalhe_conosco ():
-    continuar = True;
+    continuar = True
     while continuar:
         print ( '-' * 20 )
         print ( ' Trabalhe conosco, envie seu curriculo para email_email@email.com' )
