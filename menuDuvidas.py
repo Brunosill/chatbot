@@ -1,17 +1,42 @@
+import os
+ 
+clear = lambda: os.system ("cls"  if os.name == "nt" else "clear")
+
+
 def duvida1 ():
-    print ('-' * 20)
-    print ('R: Atualmente temos cursos para front-end,back-end e data analyst!')
-    print ('-' * 20)
+    continuar = True;
+    while continuar:
+        clear ()
+        print ('-' * 20)
+        print ('R: Atualmente temos cursos para front-end,back-end e data analyst!')
+        print ('-' * 20)
+        print ()
+        volta = input("[s] Voltar ? ")
+        if volta == "s":
+            continuar = False
     
 def duvida2 ():
-    print ('-' * 20)
-    print ('R: Temos as duas opcoes disponiveis! Fica a seu criterio escolher o seu na inscricao!')
-    print ('-' * 20)
+    continuar = True;
+    while continuar:
+        clear ()
+        print ('-' * 20)
+        print ('R: Temos as duas opcoes disponiveis! Fica a seu criterio escolher o seu na inscricao!')
+        print ('-' * 20)
+        volta = input("[s] Voltar ? ")
+        if volta == "s":
+            continuar = False
     
 def duvida3 ():
-    print ('-' * 20)
-    print ('R: Variam de 1 a 3 anos!')
-    print ('-' * 20)
+    continuar = True;
+    while continuar:
+        clear ()
+        print ('-' * 20)
+        print ('R: Variam de 1 a 3 anos!')
+        print ('-' * 20)
+        volta = input ("[s] Voltar ? ")
+        if volta == "s":
+            continuar = False
+
 
 
 
@@ -32,10 +57,14 @@ def duvidas():
         duvidas_frequentes = input('Escolha uma das opcoes acima: ')
         print ()
         if duvidas_frequentes == '1':
-           duvida1 ()
+            clear ()
+            duvida1 ()
         elif duvidas_frequentes == '2':
+            clear ()
             duvida2 ()
         elif duvidas_frequentes == '3':
+            clear ()
             duvida3 ()
         elif duvidas_frequentes == '4':
+            clear ()
             iniciar = False

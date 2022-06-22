@@ -1,10 +1,13 @@
 import menuDuvidas as duvidas
+import menuInformacoes as  informcoes 
 import sair
 import os
+ 
+clear = lambda: os.system("cls" if os.name == "nt" else "clear")
 
 def chatbot():
     inciar = True
-
+    clear()
     print("Oi, meu nome é Ia, sou a atendente virtual da ProgLife \n")
     while inciar:
         print("[1] Imformações")
@@ -14,20 +17,24 @@ def chatbot():
         print("\n")
         escolhaMenuPrincipal = input("Como posso te ajudar ? ")
         if(escolhaMenuPrincipal == '1'):
-            
+            clear()
             print("Você escolheu Imformações \n ")
+            informcoes.Menu_infomações()
         elif(escolhaMenuPrincipal == '2'):
+            clear()
             print("Você a opção de Cursos")
         elif(escolhaMenuPrincipal == '3'):
-            clear = lambda: os.system("clear")
             clear()
             print("Você escolher duvidadas")
             duvidas.duvidas()
         elif(escolhaMenuPrincipal == "sair"):
+            clear()
             sair.salvarFeedback()
             inciar = False
         else:
+            clear()
             print("\n Por favor, Digite uma opção valida \n")
+
 
 
 chatbot()
