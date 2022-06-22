@@ -1,18 +1,18 @@
 def consulta1 ():
     print ('-' * 20)
-    print ('R: A proxima turma sera aberta no dia 20/07/2022')
+    print ('R: Nossos cursos disponíveis são: Data Analyst, Web Full Stack e Mobile Developer')
     print ('-' * 20)
     
 
 def consulta2 ():
     print ('-' * 20)
-    print ('R: A formatura das turmas 1/2/3 sera no dia 09/07/2022 ')
+    print ('R: Nosso corpo de professores conta com os mais qualificados profissionais do mercado como: Esli Queiroz, Marisa Silva e Yasmin Guanaes')
     print ('-' * 20)
     
     
 def consulta3 ():
     print ('-' * 20)
-    print ('R: Ficou de recuperacao e nao conseguiu o diploma? nao se proecupe! mande um email para formacao@alunos.com para resolver sua situacao!')
+    print ('R: As cargas horárias dos nossos cursos são: Data Analyst - 560 horas, Web Full Stack - 360 horas e Mobile Developer - 420 horas')
     print ('-' * 20)
     
 
@@ -26,9 +26,9 @@ def consultas():
         print ('-' * 20)
         print ()
         print ('Menu de opcoes:')
-        print ('[1] Para data de abertura da proxima turma')
-        print ('[2] Para data de formatura das turmas 1/2/3')
-        print ('[3] Para alunos que ficaram de recuperacao')
+        print ('[1] Consultar cursos disponíveis')
+        print ('[2] Consultar corpo docente')
+        print ('[3] Consultar carga horária de cada curso')
         print ('[4] Para retornar ao menu inicial!')
         print ()
         consulta_usuario = input('Escolha uma das opcoes acima: ')
