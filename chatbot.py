@@ -10,7 +10,7 @@ def chatbot():
     clear()
     print("Oi, meu nome é Ia, sou a atendente virtual da ProgLife \n")
     while inciar:
-        print("[1] Imformações")
+        print("[1] Informações")
         print("[2] Cursos")
         print("[3] Duvidas")
         print("[sair] Sair")
@@ -27,10 +27,9 @@ def chatbot():
             clear()
             print("Você escolher duvidadas")
             duvidas.duvidas()
-        elif(escolhaMenuPrincipal == "sair"):
+        elif(escolhaMenuPrincipal.lower() == "sair"):
             clear()
-            sair.salvarFeedback()
-            inciar = False
+            inciar = sair.sair()
         else:
             clear()
             print("\n Por favor, Digite uma opção valida \n")

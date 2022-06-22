@@ -49,10 +49,13 @@ def Menu_infomações ():
         infomações = input('Escolha uma das opcoes acima: ')
         print ()
         if infomações == '1':
+            clear ()
             infomações_Horario ()
         elif infomações == '2':
+            clear ()
             infomações_contatos ()
         elif infomações == '3':
+            clear ()
             infomações_trabalhe_conosco ()
         elif infomações == '4':
             iniciar = False
