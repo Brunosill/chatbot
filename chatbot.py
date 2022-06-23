@@ -1,9 +1,11 @@
+#Menu inicial - Bruno e Guilherme
+
 import menuDuvidas as duvidas
 import menuInformacoes as  informacoes 
 import menuConsultas as consultas
 import sair
 
-#Menu inicial - Bruno e Guilherme
+
 def chatbot():
     iniciar = True
     sair.clear()
