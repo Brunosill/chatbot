@@ -1,10 +1,9 @@
-import os
-
-clear = lambda: os.system ("cls"  if os.name == "nt" else "clear")
+import sair
 
 def infomações_Horario ():
     continuar = True
     while continuar:
+        sair.clear()
         print ( '-' * 20 )
         print (  'Nossos cursos são de segunda à quinta, das 19 ás 22 horas' )
         print ( '-' * 20 )
@@ -15,6 +14,7 @@ def infomações_Horario ():
 def infomações_contatos ():
     continuar = True
     while continuar:
+        sair.clear()
         print ( '-' * 20 )
         print (  'Telefone: (000) 99999-9999' )
         print ( '-' * 20 )
@@ -25,6 +25,7 @@ def infomações_contatos ():
 def infomações_trabalhe_conosco ():
     continuar = True
     while continuar:
+        sair.clear()
         print ( '-' * 20 )
         print ( ' Trabalhe conosco, envie seu curriculo para email_email@email.com' )
         print ( '-' * 20 )
@@ -35,6 +36,7 @@ def infomações_trabalhe_conosco ():
 def Menu_infomações ():
     iniciar = True
     while iniciar:
+        sair.clear()
         print ()
         print ('-' * 20)
         print ('Bem vindo ao nosso portal de infomações! ')
@@ -49,13 +51,10 @@ def Menu_infomações ():
         infomações = input('Escolha uma das opcoes acima: ')
         print ()
         if infomações == '1':
-            clear ()
             infomações_Horario ()
         elif infomações == '2':
-            clear ()
             infomações_contatos ()
         elif infomações == '3':
-            clear ()
             infomações_trabalhe_conosco ()
         elif infomações == '4':
             iniciar = False

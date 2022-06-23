@@ -1,6 +1,9 @@
+import sair
+
 def consulta1 ():
     i = True
     while i:
+        sair.clear()
         print ('-' * 20)
         print ('R: Atualmente temos aulas no período matutino (8h as 10h) e noturno (19h as 21h)')
         print ('-' * 20)
@@ -14,6 +17,7 @@ def consulta1 ():
 def consulta2 ():
     i = True
     while i:
+        sair.clear()
         print ('-' * 20)
         print ('R: Nosso corpo de professores conta com os mais qualificados profissionais do mercado como: Esli Queiroz, Marisa Silva e Yasmin Guanaes')
         print ('-' * 20)
@@ -26,6 +30,7 @@ def consulta2 ():
 def consulta3 ():
     i = True
     while i:
+        sair.clear()
         print ('-' * 20)
         print ('R: As cargas horárias dos nossos cursos são: Data Analyst - 560 horas, Web Full Stack - 360 horas e Mobile Developer - 420 horas')
         print ('-' * 20)
@@ -39,6 +44,7 @@ def consulta3 ():
 def consultas():
     i = True
     while i:
+        sair.clear()
         print ()
         print ('-' * 20)
         print ('Bem vindo ao nosso portal de consulta! ')
@@ -54,13 +60,10 @@ def consultas():
         print ()
         if consulta_usuario == '1':
             consulta1 ()
-           
         elif consulta_usuario == '2':
             consulta2 ()
-            
         elif consulta_usuario == '3':
             consulta3 ()
-            
         elif consulta_usuario == '4':
             i = False
             

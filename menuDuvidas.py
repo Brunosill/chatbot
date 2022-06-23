@@ -1,12 +1,9 @@
-import os
- 
-clear = lambda: os.system ("cls"  if os.name == "nt" else "clear")
-
+import sair
 
 def duvida1 ():
     continuar = True
     while continuar:
-        clear ()
+        sair.clear()
         print ('-' * 20)
         print ('R: Atualmente temos cursos para front-end,back-end e data analyst!')
         print ('-' * 20)
@@ -18,7 +15,7 @@ def duvida1 ():
 def duvida2 ():
     continuar = True
     while continuar:
-        clear ()
+        sair.clear()
         print ('-' * 20)
         print ('R: Temos as duas opcoes disponiveis! Fica a seu criterio escolher o seu na inscricao!')
         print ('-' * 20)
@@ -29,7 +26,7 @@ def duvida2 ():
 def duvida3 ():
     continuar = True
     while continuar:
-        clear ()
+        sair.clear()
         print ('-' * 20)
         print ('R: Variam de 1 a 3 anos!')
         print ('-' * 20)
@@ -43,6 +40,7 @@ def duvida3 ():
 def duvidas():
     iniciar = True
     while iniciar:
+        sair.clear()
         print ()
         print ('-' * 20)
         print ('Bem vindo ao nosso portal de duvidas! ')
@@ -57,14 +55,10 @@ def duvidas():
         duvidas_frequentes = input('Escolha uma das opcoes acima: ')
         print ()
         if duvidas_frequentes == '1':
-            clear ()
             duvida1 ()
         elif duvidas_frequentes == '2':
-            clear ()
             duvida2 ()
         elif duvidas_frequentes == '3':
-            clear ()
             duvida3 ()
         elif duvidas_frequentes == '4':
-            clear ()
             iniciar = False
