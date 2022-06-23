@@ -1,3 +1,5 @@
+#Menu de Informações - Camilo 
+
 import sair
 
 def infomações_Horario ():
