@@ -1,4 +1,10 @@
+#Menu de Duvidas - Guilherme e Bruno
+
+import os
 import sair
+
+clear = lambda: os.system ("cls"  if os.name == "nt" else "clear")
+
 
 def duvida1 ():
     continuar = True
