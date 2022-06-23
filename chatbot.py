@@ -13,7 +13,7 @@ def chatbot():
     while iniciar:
         print('\nMenu de opcoes:')
         print("[1] Informações")
-        print("[2] Cunsultas")
+        print("[2] Consultas")
         print("[3] Duvidas")
         print("[sair] Sair")
         print("\n")
