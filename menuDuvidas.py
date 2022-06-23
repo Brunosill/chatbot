@@ -4,7 +4,7 @@ clear = lambda: os.system ("cls"  if os.name == "nt" else "clear")
 
 
 def duvida1 ():
-    continuar = True;
+    continuar = True
     while continuar:
         clear ()
         print ('-' * 20)
@@ -16,7 +16,7 @@ def duvida1 ():
             continuar = False
     
 def duvida2 ():
-    continuar = True;
+    continuar = True
     while continuar:
         clear ()
         print ('-' * 20)
@@ -27,7 +27,7 @@ def duvida2 ():
             continuar = False
     
 def duvida3 ():
-    continuar = True;
+    continuar = True
     while continuar:
         clear ()
         print ('-' * 20)

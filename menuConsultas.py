@@ -2,11 +2,11 @@ def consulta1 ():
     i = True
     while i:
         print ('-' * 20)
-        print ('R: Nossos cursos disponíveis são: Data Analyst, Web Full Stack e Mobile Developer')
+        print ('R: Atualmente temos aulas no período matutino (8h as 10h) e noturno (19h as 21h)')
         print ('-' * 20)
         volta = input("[s] Voltar ? ")
         if volta == "s":
-            continuar = False
+            i = False
 
     
     
@@ -19,7 +19,7 @@ def consulta2 ():
         print ('-' * 20)
         volta = input("[s] Voltar ? ")
         if volta == "s":
-            continuar = False
+            i = False
 
     
     
@@ -31,7 +31,7 @@ def consulta3 ():
         print ('-' * 20)
         volta = input("[s] Voltar ? ")
         if volta == "s":
-            continuar = False
+            i = False
 
     
 
@@ -45,7 +45,7 @@ def consultas():
         print ('-' * 20)
         print ()
         print ('Menu de opcoes:')
-        print ('[1] Consultar cursos disponíveis')
+        print ('[1] Consultar horarios das aulas')
         print ('[2] Consultar corpo docente')
         print ('[3] Consultar carga horária de cada curso')
         print ('[4] Para retornar ao menu inicial!')

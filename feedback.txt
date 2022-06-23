@@ -7,3 +7,4 @@ ta foda viu
 /bin/python3 /home/killmonger/Modelos/chatbot/chatbot.py
 /bin/python3 /home/killmonger/Modelos/chatbot/chatbot.py
 /bin/python3 /home/killmonger/Modelos/chatbot/sair.py
+ Otimo bot 
