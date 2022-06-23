@@ -10,6 +10,7 @@ def infomações_Horario ():
         volta = input("[s] Voltar ? ")
         if volta == "s":
             continuar = False
+    sair.clear()
 
 def infomações_contatos ():
     continuar = True
@@ -21,6 +22,7 @@ def infomações_contatos ():
         volta = input("[s] Voltar ? ")
         if volta == "s":
             continuar = False
+    sair.clear()
 
 def infomações_trabalhe_conosco ():
     continuar = True
@@ -32,11 +34,13 @@ def infomações_trabalhe_conosco ():
         volta = input("[s] Voltar ? ")
         if volta == "s":
             continuar = False
+    sair.clear()
 
 def Menu_infomações ():
     iniciar = True
+
+    sair.clear()
     while iniciar:
-        sair.clear()
         print ()
         print ('-' * 20)
         print ('Bem vindo ao nosso portal de infomações! ')
@@ -57,4 +61,7 @@ def Menu_infomações ():
         elif infomações == '3':
             infomações_trabalhe_conosco ()
         elif infomações == '4':
+            sair.clear()
             iniciar = False
+        else:
+            print("\n Por favor, Digite uma opção valida \n")

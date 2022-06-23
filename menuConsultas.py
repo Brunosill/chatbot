@@ -10,6 +10,7 @@ def consulta1 ():
         volta = input("[s] Voltar ? ")
         if volta == "s":
             i = False
+    sair.clear()
 
     
     
@@ -24,6 +25,7 @@ def consulta2 ():
         volta = input("[s] Voltar ? ")
         if volta == "s":
             i = False
+    sair.clear()
 
     
     
@@ -37,14 +39,15 @@ def consulta3 ():
         volta = input("[s] Voltar ? ")
         if volta == "s":
             i = False
+    sair.clear()
 
     
 
 
 def consultas():
     i = True
+    sair.clear()
     while i:
-        sair.clear()
         print ()
         print ('-' * 20)
         print ('Bem vindo ao nosso portal de consulta! ')
@@ -65,5 +68,7 @@ def consultas():
         elif consulta_usuario == '3':
             consulta3 ()
         elif consulta_usuario == '4':
+            sair.clear()
             i = False
-            
+        else:
+            print("\n Por favor, Digite uma opção valida \n")

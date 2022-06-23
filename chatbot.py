@@ -6,15 +6,12 @@ import sair
 
 def chatbot():
     iniciar = True
-    print("Oi, meu nome é Ia, sou a atendente virtual da ProgLife \n")
+    sair.clear()
+    print('-' * 20)
+    print('Bem vindo ao nosso portal de informacoes!')
+    print('-' * 20)
     while iniciar:
-        sair.clear()
-        print ()
-        print ('-' * 20)
-        print ('Bem vindo ao nosso portal de informacoes! ')
-        print ('-' * 20)
-        print ()
-        print ('Menu de opcoes:')
+        print('\nMenu de opcoes:')
         print("[1] Informações")
         print("[2] Cunsultas")
         print("[3] Duvidas")
@@ -34,8 +31,8 @@ def chatbot():
             sair.clear()
             iniciar = sair.sair()
         else:
-            sair.clear()
             print("\n Por favor, Digite uma opção valida \n")
+    
 
 
 chatbot()

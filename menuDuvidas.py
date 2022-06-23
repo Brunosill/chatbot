@@ -11,6 +11,7 @@ def duvida1 ():
         volta = input("[s] Voltar ? ")
         if volta == "s":
             continuar = False
+    sair.clear()
     
 def duvida2 ():
     continuar = True
@@ -22,6 +23,7 @@ def duvida2 ():
         volta = input("[s] Voltar ? ")
         if volta == "s":
             continuar = False
+    sair.clear()
     
 def duvida3 ():
     continuar = True
@@ -33,14 +35,16 @@ def duvida3 ():
         volta = input ("[s] Voltar ? ")
         if volta == "s":
             continuar = False
+    sair.clear()
 
 
 
 
 def duvidas():
     iniciar = True
+    
+    sair.clear()
     while iniciar:
-        sair.clear()
         print ()
         print ('-' * 20)
         print ('Bem vindo ao nosso portal de duvidas! ')
@@ -61,4 +65,7 @@ def duvidas():
         elif duvidas_frequentes == '3':
             duvida3 ()
         elif duvidas_frequentes == '4':
+            sair.clear()
             iniciar = False
+        else:
+            print("\n Por favor, Digite uma opção valida \n")
